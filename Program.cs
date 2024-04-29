@@ -29,18 +29,19 @@ string[] CreateArr(int elementCount) {
      return SelectArray;
 }
 
+void Conclusion() 
+{
     Console.Write("Введите количество элементов массива:\t");
     int elementCount = int.Parse(Console.ReadLine());
-    //CreateArr(elementCount);
-    //ArrSelection(CreateArr(elementCount));
-
-void Conclusion
-     Console.WriteLine("Вывод массива");
-     string[] cop = ArrSelection(CreateArr(elementCount));
-
-    for (int i = 0; i < 10; i++)
+    
+    string[] cop = ArrSelection(CreateArr(elementCount));
+    Console.WriteLine("Вывод массива:");
+    for (int i = 0; i < cop.Length; i++)
     {
-        Console.WriteLine(cop[i]);
+        Console.Write($" {cop[i]}");
     }
+}
+
+Conclusion();
 
 
