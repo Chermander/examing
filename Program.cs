@@ -1,10 +1,8 @@
 ﻿
-    Console.Write("Введите количество элементов массива:\t");
-
-    int elementCount = int.Parse(Console.ReadLine());
-
+string[] CreateArr(int elementCount) {
 
     string[] myArray = new string[elementCount];
+    
 
     for (int i = 0; i < myArray.Length; i++)
     {
@@ -12,11 +10,37 @@
         myArray[i] = Console.ReadLine();
         
     }
-    Console.WriteLine("Вывод массива");
+    
+    return myArray;
+   
+}
 
-    for (int i = 0; i < myArray.Length; i++)
+ string[] ArrSelection (string[] myArray) {
+        string[] SelectArray = new string[myArray.Length];
+        int k =0;
+     for (int i = 0; i < myArray.Length; i++)
+     {
+        if (myArray[i].Length<= 3)
+        {
+            SelectArray[k] = myArray[i];
+            k++;
+        }
+     }
+     return SelectArray;
+}
+
+    Console.Write("Введите количество элементов массива:\t");
+    int elementCount = int.Parse(Console.ReadLine());
+    //CreateArr(elementCount);
+    //ArrSelection(CreateArr(elementCount));
+
+void Conclusion
+     Console.WriteLine("Вывод массива");
+     string[] cop = ArrSelection(CreateArr(elementCount));
+
+    for (int i = 0; i < 10; i++)
     {
-        Console.WriteLine(myArray[i]);
+        Console.WriteLine(cop[i]);
     }
 
-    Console. Write(myArray[1].Length);
+

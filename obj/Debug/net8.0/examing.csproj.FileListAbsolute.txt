@@ -1,0 +1,14 @@
+E:\GeekBrains\examing\bin\Debug\net8.0\examing.exe
+E:\GeekBrains\examing\bin\Debug\net8.0\examing.deps.json
+E:\GeekBrains\examing\bin\Debug\net8.0\examing.runtimeconfig.json
+E:\GeekBrains\examing\bin\Debug\net8.0\examing.dll
+E:\GeekBrains\examing\bin\Debug\net8.0\examing.pdb
+E:\GeekBrains\examing\obj\Debug\net8.0\examing.GeneratedMSBuildEditorConfig.editorconfig
+E:\GeekBrains\examing\obj\Debug\net8.0\examing.AssemblyInfoInputs.cache
+E:\GeekBrains\examing\obj\Debug\net8.0\examing.AssemblyInfo.cs
+E:\GeekBrains\examing\obj\Debug\net8.0\examing.csproj.CoreCompileInputs.cache
+E:\GeekBrains\examing\obj\Debug\net8.0\examing.dll
+E:\GeekBrains\examing\obj\Debug\net8.0\refint\examing.dll
+E:\GeekBrains\examing\obj\Debug\net8.0\examing.pdb
+E:\GeekBrains\examing\obj\Debug\net8.0\examing.genruntimeconfig.cache
+E:\GeekBrains\examing\obj\Debug\net8.0\ref\examing.dll
